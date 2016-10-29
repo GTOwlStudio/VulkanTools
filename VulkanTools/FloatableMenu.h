@@ -5,7 +5,8 @@ class FloatableMenu :
 {
 public:
 	FloatableMenu();
-	~FloatableMenu();
+	virtual ~FloatableMenu();
+	virtual void addAction(Action action);
 
 protected:
 

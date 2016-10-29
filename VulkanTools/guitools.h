@@ -19,6 +19,7 @@ struct rect2D {
 	offset2D offset;
 	extent2D extent;
 	rect2D(offset2D poffset, extent2D pextent) : offset(poffset) ,extent(pextent) {}
+	rect2D(float x, float y, float w, float h) : offset(x,y), extent(w,h){}
 };
 
 
