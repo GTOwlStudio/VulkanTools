@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="vulkanBuffer">
+      <UniqueIdentifier>{c687bb7c-d242-4e6d-ae0e-16ca87a8184b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{c04a0302-420b-494d-9ae2-6917972b8f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{8f7c61d7-e776-461a-a7cf-a2473ee0ece6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>vulkanBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="guitools.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="guilayout.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatableMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>vulkanBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshHelper.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="guitools.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="IMenu.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatableMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="devlog.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+[10/10/2016]
+-MemoryManager class and Helper file added to the  project
+	-MemoryManager is a class for a better vision and managment of memory
+we have physical and virtual mng and vision. Physical is the real buffer on the memory and the virtual 
+is an INTERFACE with the user. The user can use multiple virtual buffers that are in fact just one BIG BUFFER
+WHY THAT VIRTUAL SYSTEM ?
+This code will be used in vulkan app, and according to this papper 
+ https://developer.nvidia.com/vulkan-memory-management from NVIDIA is better to use multiple BIG BUFFER 
+ rather than too many LITTLE BUFFER
+	-Helper is declared in Helper.h and defined in Helper.cpp. It's for better code lisibility.
+By now we just have one function std::string flagsToString(...) inside "helper" namespace
+flagsToString is a function which take VkBufferUsageFlags and turn it into string 
+
+[27/10/2016]
+-CMesh class added
+	-The class is still in dev nothing to talk about yet
+-CSpline class added
+	The class allow us to create a line between to point. By now we can only insert or add point
+	WE CAN'T yet generate smooth Bezier Spline (But soon we'll do)
+-MeshHelper added, some fonction added to the meshhelper such as isAnEdge() which tell you if to point
+ are link by an edge
+
+[28/10/2016]
+-CSpline class can NOW GENERATE BSPLINE :), see spline_gen.xlsx
+-"mathutil" namespace added for math
+-stringToFile function added to "helper", functional
+-arrayToString(glm::vec3[]) func added to "helper", functional
+
+
